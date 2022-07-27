@@ -76,4 +76,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/sntakirutimana72/microverse-react-template/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/sntakirutimana72/WeatherEd/blob/main/LICENSE) licensed.
