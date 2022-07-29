@@ -1,14 +1,16 @@
-# React App Template
+# WeatherEd
 
-A React app template that consists of linter configurations and other additional boilerplate code. Built with HTML5, CSS, JavaScript &amp; React.
+A WeatherEd app is an app that allows users to check current weather stats of 30 US cities. Users can view different cities and choose which one at a time to check its weather stats.
 
 
 ## Built With
 
 - HTML5
 - CSS3
-- JavaScript
+- APIs
+- Redux
 - React
+- JavaScript
 
 
 ## Live Demo
@@ -38,7 +40,14 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
     npm install --force
   ```
 
-### Run tests
+### Serve
+
+- To start the app server, run
+  ```
+    npm start
+  ```
+
+### Tests
 
 - For _stylelint_ tests, run
   ```
@@ -51,6 +60,17 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
 - For __react__ tests, run
   ```
     npm test
+  ```
+
+### Error Fixes
+
+- For _stylelint_ errors, run
+  ```
+    npm run lint:style-f
+  ```
+- For _eslint_ errors, run
+  ```
+    npm run lint:es-f
   ```
 
 
@@ -76,4 +96,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/sntakirutimana72/WeatherEd/blob/main/LICENSE) licensed.
+This project is **MIT** licensed.
