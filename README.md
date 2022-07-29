@@ -15,7 +15,7 @@ A WeatherEd app is an app that allows users to check current weather stats of 30
 
 ## Live Demo
 
-_live demo links go here_
+- ![Loom video](https://www.loom.com/share/edad5d8f3a4a4ca19f0b942277a560be)
 
 
 ## Getting Started
@@ -35,7 +35,7 @@ To get a copy of this project running on your local computer, do the followings:
 
 ### Install
 
-Open _Terminal/Shell_ inside your _VSCode_ and run
+Open __Terminal/Shell__ inside your __VSCode__ and run
   ```
     npm install --force
   ```
@@ -49,11 +49,11 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
 
 ### Tests
 
-- For _stylelint_ tests, run
+- For __stylelint__ tests, run
   ```
     npm run lint:style
   ```
-- For _eslint_ tests, run
+- For __eslint__ tests, run
   ```
     npm run lint:es
   ```
@@ -64,11 +64,11 @@ Open _Terminal/Shell_ inside your _VSCode_ and run
 
 ### Error Fixes
 
-- For _stylelint_ errors, run
+- For __stylelint__ errors, run
   ```
     npm run lint:style-f
   ```
-- For _eslint_ errors, run
+- For __eslint__ errors, run
   ```
     npm run lint:es-f
   ```
