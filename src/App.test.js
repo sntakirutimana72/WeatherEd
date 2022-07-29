@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
+import { screen, waitFor } from '@testing-library/react';
+import render from './utils/redux-test-utils';
 import App from './App';
 
-test('renders app heading', () => {
+test('renders app', () => {
+  global.fetch = jest.fn(() => Promise.reject());
   render(<App />);
-  const linkElement = screen.getByText(/React Template/i);
-  expect(linkElement).toBeInTheDocument();
+  waitFor(() => expect(screen.getByRole('button')).toBeInTheDocument());
 });
