@@ -1,25 +1,28 @@
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import styles from './CityLink.module.css';
 
 const CityLink = ({ raw }) => {
   const {
-    state, city, lon, lat,
+    name, country, latitude, longitude,
   } = raw;
+  const city = `${name} - ${country}`;
   return (
-    <li>
-      <Link to={`/city/state=${state}&city=${city}&lon=${lon}&lat=${lat}`}>
-        {state}
+    <li className={styles.CityLink}>
+      <Link to={`/city/name=${city}&lat=${latitude}&lon=${longitude}`}>
+        {name}
       </Link>
+      <i className="fa fa-arrow-right" />
     </li>
   );
 };
 
 CityLink.propTypes = {
   raw: PropTypes.shape({
-    state: PropTypes.string.isRequired,
-    city: PropTypes.string.isRequired,
-    lon: PropTypes.number.isRequired,
-    lat: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    country: PropTypes.string.isRequired,
+    longitude: PropTypes.number.isRequired,
+    latitude: PropTypes.number.isRequired,
   }).isRequired,
 };
 

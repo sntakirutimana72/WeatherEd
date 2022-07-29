@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import CityStat from './components/CityStat';
-import './App.css';
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route
-          path="/city/state=:state&city=:city&lon=:lon&lat=:lat"
+          path="/city/name=:name&lat=:lat&lon=:lon"
           element={<CityStat />}
         />
       </Routes>
