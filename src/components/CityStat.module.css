@@ -1,0 +1,102 @@
+.StatDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(126, 0, 69);
+  border-radius: 0 0 30% 30%;
+}
+
+.Back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 8px;
+  margin-bottom: 1px;
+  background-color: rgb(126, 0, 69);
+}
+
+.Back h1 {
+  margin: 0;
+  color: rgb(255, 166, 0);
+}
+
+.Back i {
+  padding: 2px;
+  width: 28px;
+  border-radius: 50%;
+  font-size: 28px;
+  color: rgb(255, 166, 0);
+}
+
+.StatDesc > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.StatDesc span {
+  font-size: 22px;
+  font-weight: 600;
+  color: aquamarine;
+}
+
+.StatInfo span {
+  font-size: 22px;
+}
+
+.StatDesc > div span {
+  display: block;
+  text-align: center;
+}
+
+.StatDesc h2 {
+  margin: 0;
+  text-align: center;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.StatDesc img {
+  width: 70%;
+}
+
+.StatInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  padding: 20px 10px;
+  background-color: rgb(126, 0, 69);
+  border-radius: 20%;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.StatInfo span:first-child {
+  color: aquamarine;
+  font-weight: 600;
+  width: 50%;
+}
+
+.StatInfo span:nth-child(2) {
+  padding: 15px 1px;
+  background-color: grey;
+}
+
+.StatInfo span:last-child {
+  width: 25%;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .StatDesc {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .StatDesc > div {
+    width: 50%;
+  }
+}

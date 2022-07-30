@@ -1,10 +1,18 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import CityStat from './components/CityStat';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="welcome-title">React Template</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route
+          path="/city/name=:name&lat=:lat&lon=:lon"
+          element={<CityStat />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

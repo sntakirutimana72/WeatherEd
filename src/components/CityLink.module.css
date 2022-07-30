@@ -1,0 +1,24 @@
+.CityLink {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: large;
+  padding: 15px;
+}
+
+.CityLink i {
+  text-align: center;
+  font-size: medium;
+  padding: 2px;
+  width: 17px;
+  border-radius: 50%;
+  border: 1px solid wheat;
+}
+
+.CityLink a {
+  width: 100%;
+}
+
+.CityLink:nth-child(even) {
+  background-color: rgba(114, 3, 55, 0.342);
+}

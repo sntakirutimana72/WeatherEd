@@ -1,19 +1,22 @@
-# React App Template
+# WeatherEd
 
-A React app template that consists of linter configurations and other additional boilerplate code. Built with HTML5, CSS, JavaScript &amp; React.
+A WeatherEd app is an app that allows users to check current weather stats of 30 US cities. Users can view different cities and choose which one at a time to check its weather stats.
 
 
 ## Built With
 
 - HTML5
 - CSS3
-- JavaScript
+- APIs
+- Redux
 - React
+- JavaScript
 
 
 ## Live Demo
 
-_live demo links go here_
+- [Loom video](https://www.loom.com/share/edad5d8f3a4a4ca19f0b942277a560be)
+- [Heroku](https://weathered-72.herokuapp.com/)
 
 
 ## Getting Started
@@ -33,24 +36,42 @@ To get a copy of this project running on your local computer, do the followings:
 
 ### Install
 
-Open _Terminal/Shell_ inside your _VSCode_ and run
+Open __Terminal/Shell__ inside your __VSCode__ and run
   ```
     npm install --force
   ```
 
-### Run tests
+### Serve
 
-- For _stylelint_ tests, run
+- To start the app server, run
+  ```
+    npm start
+  ```
+
+### Tests
+
+- For __stylelint__ tests, run
   ```
     npm run lint:style
   ```
-- For _eslint_ tests, run
+- For __eslint__ tests, run
   ```
     npm run lint:es
   ```
 - For __react__ tests, run
   ```
     npm test
+  ```
+
+### Error Fixes
+
+- For __stylelint__ errors, run
+  ```
+    npm run lint:style-f
+  ```
+- For __eslint__ errors, run
+  ```
+    npm run lint:es-f
   ```
 
 
@@ -76,4 +97,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/sntakirutimana72/microverse-react-template/blob/main/LICENSE) licensed.
+This project is **MIT** licensed.

@@ -1,0 +1,71 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home form {
+  padding: 20px 10px;
+  background-color: rgb(214, 3, 102);
+}
+
+.Keyword {
+  box-sizing: border-box;
+  background-color: inherit;
+  border: 1px solid #10103020;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 20px;
+  width: 100%;
+  color: inherit;
+}
+
+.Keyword::placeholder {
+  color: #e8e8e860;
+}
+
+.MainInfo {
+  margin-bottom: 20px;
+  border-radius: 0 0 40% 40%;
+  padding: 30px;
+  background-color: rgb(214, 3, 102);
+}
+
+.MainInfo h2 {
+  margin: 0;
+  font-weight: 600;
+  text-align: center;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.States {
+  background-color: rgb(167, 1, 84);
+}
+
+.States h3 {
+  margin: 0;
+  padding: 10px;
+  font-weight: 600;
+  font-size: large;
+  color: #ff5e00;
+  background-color: rgb(158, 0, 74);
+}
+
+.States ul {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .Home form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Keyword {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
