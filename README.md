@@ -15,7 +15,8 @@ A WeatherEd app is an app that allows users to check current weather stats of 30
 
 ## Live Demo
 
-- ![Loom video](https://www.loom.com/share/edad5d8f3a4a4ca19f0b942277a560be)
+- [Loom video](https://www.loom.com/share/edad5d8f3a4a4ca19f0b942277a560be)
+- [Heroku](https://weathered-72.herokuapp.com/)
 
 
 ## Getting Started
